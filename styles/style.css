@@ -1,6 +1,7 @@
 body {
   background-color: #000;
-  background-image: url('/images/micro_carbon.jpg');
+  background-image: url('/images/concrete_wall.png');
+  background-repeat: repeat;
 }
 
 h1 {
@@ -8,14 +9,25 @@ h1 {
   text-align: center;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   margin: 0;
+  text-transform: uppercase;
 }
 
 #game {
   background-color: #000;
+  background-image: url('/images/repeated-square-dark.png');
+  background-size: 40%;
+  background-repeat: repeat;
+  background-position: top left;
   width: 750px;
-  height: 500px;
-  border: 1px solid #fff;
+  height: 490px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
   margin: 20px auto;
 }
+
+#game .snakeUnit {
+  width: 30px;
+  height: 30px;
+}
+
