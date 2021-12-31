@@ -2,10 +2,11 @@ body {
   background-color: #000;
   background-image: url('/images/concrete_wall.png');
   background-repeat: repeat;
+  padding: 25px;
 }
 
 h1 {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
@@ -20,9 +21,10 @@ h1 {
   background-size: 40%;
   background-repeat: repeat;
   background-position: top left;
-  width: 750px;
-  height: 490px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  width: 755px;
+  height: 496px;
+  border: 5px solid rgba(255, 255, 255, 0.275);
+  border-style: outset;
   margin: 20px auto;
 }
 
@@ -31,3 +33,8 @@ h1 {
   height: 30px;
 }
 
+#info-board {
+  width: 755px;
+  margin: 20px auto;
+  color: rgba(255, 255, 255, 0.5);
+}
