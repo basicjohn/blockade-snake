@@ -15,6 +15,10 @@ h1 {
   text-transform: uppercase;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #game {
   background-color: #000;
   background-image: url('/images/repeated-square-dark.png');
@@ -27,6 +31,7 @@ h1 {
   border-style: outset;
   margin: 20px auto;
   position: relative;
+  box-sizing: content-box;
 }
 
 #game .snakeUnit {
