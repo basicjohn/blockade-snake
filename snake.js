@@ -4,6 +4,8 @@ const rows = 23;
 const columns = 35;
 const pixelSize = 21.6;
 
+let pixels = new Map();
+
 function createPlayArea() {
   for (let i = 0; i < rows; i++){
     for (let j = 0; j < columns; j++){
@@ -15,6 +17,7 @@ function createPlayArea() {
       pixel.style.width = pixelSize + "px";
       pixel.style.height = pixelSize + "px";
       pixel.style.backgroundColor = "#e7e4e0";
+      let position = i + "_" + j;
       playArea.appendChild(pixel);
     }
   }
@@ -32,5 +35,6 @@ drawSnake([
 )
 
 function drawSnake(snake) {
+  let position = i + "_" + j;
 
 }
